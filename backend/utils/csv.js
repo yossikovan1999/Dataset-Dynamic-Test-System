@@ -1,7 +1,6 @@
 import fs from "fs";
 import csv from "csv-parser";
 
-
 const results = [];
 
 export default function readCsvFile(filepath) {
@@ -19,7 +18,3 @@ export default function readCsvFile(filepath) {
   });
 }
 
-
-const result = await readCsvFile("annual-enterprise-survey-2024-financial-year-provisional.csv");
-
-console.log(result);

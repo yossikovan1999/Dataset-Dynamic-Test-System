@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from "cors";
 import errorMiddleware from './middleware/error.middleware.js';
-
+import csvRouter from "./routes/dataRoutes.js";
 
 const app = express();
 const PORT = 3000;
@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
     res.send("Server is running");
 });
 
-
+app.use("/api/data", csvRouter);
 
 app.use(errorMiddleware);
 
