@@ -1,0 +1,75 @@
+.data-page {
+  width: 100%;
+}
+
+.data-page h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px rgb(182, 181, 181) solid;
+}
+
+.filter-section {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #f0eeee;
+  border-bottom: #afafaf 2px solid;
+}
+
+.filter-section form {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.filter-section form .input-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter-section form label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.filter-section form input {
+  border: 1.3px grey solid;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  padding: 0.3rem;
+}
+
+.data-page form button {
+  background-color: #1477bc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+table {
+  font-size: 1.4rem;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+tbody tr:nth-child(odd):hover {
+  background-color: #e29191;
+}

@@ -1,0 +1,22 @@
+table {
+  font-size: 1.4rem;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+tbody tr:nth-child(odd):hover {
+  background-color: #e29191;
+}
